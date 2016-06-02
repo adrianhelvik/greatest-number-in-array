@@ -1,5 +1,18 @@
 Determine which number is the greatest in an array.
 
+Usage
+-----
+
+```bash
+npm install --save greatest-number-in-array
+```
+
+```javascript
+var greatestNumberInArray = require('greatest-number-in-array');
+
+greatestNumberInArray([1, 5, 2, 10]); // 10
+```
+
 Rules
 -----
 
@@ -7,6 +20,9 @@ Rules
 * If the array is empty return null.
 * If the number is not a number throw a TypeError (numeric strings are supported, NaN is not)
 * The result is cast
+
+Code
+----
 
 ```javascript
 // version 1.0.0
